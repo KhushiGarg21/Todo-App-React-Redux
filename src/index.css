@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.checkbox{
+  background-color: blueviolet;
+
+}
+.custom-form{
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+  
+}
+
+.input-and-btn{
+  display: flex;
+  /* background-color: blueviolet; */
+
+}
+
+
+
+.todo-box .content{
+  display: flex;
+  /* background-color: blueviolet; */
+  margin-left: 6px;
+  
+
+
+  /* left:10px; */
+}
+
+.todo-box .content p{
+  margin-top: 14px;
+  margin-left: 6px;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.todo-box span{
+  margin: 0 5px;
+  /* background-color: blueviolet; */
+}
+
+.edit{
+  /* background-color: blueviolet; */
+margin-right: 4px;
+margin-top: 14px;
+}
+.delete-all{
+  background-color: rgb(211, 27, 27);
+  width: 12%;
+  border: 10px solid transparent;
+  padding: 15px;
+  color: white;
+  margin-top: 120px;
+  margin-left: 4%;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+
+.actions-box{
+  cursor: pointer;
+}
+
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+  color:black;
+  background-color: white;
+}
+
+.Add{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:x-large;
+  margin-left: 20%;
+  width: full;
+  margin-top: 40px;
+}
+.Heading{
+  padding-top: 23px;
+  background-color: rgb(207, 224, 28);
+  width: 100%;
+  text-align : center;
+  height: 100px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(147, 31, 139);}
+  25%  {background-color: rgb(151, 151, 22);}
+  50%  {background-color: rgb(43, 184, 215);} 
+  100% {background-color: green;}
+}
+
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.todo-box{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 370px;
+  width: 50%;
+  background-color: rgb(221, 200, 240);
+
+  justify-content: space-between;
+}
